@@ -1,0 +1,56 @@
+#body, html {
+    background-color: white;
+    height: 100%;
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .center-image {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .typewriter-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .typewriter {
+    border: 2px solid #333;
+    padding: 10px;
+    max-width: 400px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(40) forwards;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  .btstyle {
+    transition: background-color 0.3s ease;
+  }
+  
+  .btstyle:hover {
+    background-color: #E45F4E;
+  }
+
+.customContainer {
+    max-width: 500px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+
+}
